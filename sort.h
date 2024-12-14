@@ -28,5 +28,9 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
+void swap(int *array, ssize_t item1, ssize_t item2);
+int lomuto_partition(int *array, ssize_t first, ssize_t last, size_t size);
+void qs(int *array, ssize_t first, ssize_t last, int size);
+void quick_sort(int *array, size_t size);
 
 #endif
